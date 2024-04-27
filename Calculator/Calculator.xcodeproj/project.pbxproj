@@ -13,6 +13,7 @@
 		B140F7012BDC051600536710 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B140F6FF2BDC051600536710 /* Main.storyboard */; };
 		B140F7032BDC051600536710 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B140F7022BDC051600536710 /* Assets.xcassets */; };
 		B140F7062BDC051600536710 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B140F7042BDC051600536710 /* LaunchScreen.storyboard */; };
+		B140F70E2BDD568400536710 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B140F70D2BDD568400536710 /* Stack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B140F7022BDC051600536710 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B140F7052BDC051600536710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B140F7072BDC051600536710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B140F70D2BDD568400536710 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				B140F7022BDC051600536710 /* Assets.xcassets */,
 				B140F7042BDC051600536710 /* LaunchScreen.storyboard */,
 				B140F7072BDC051600536710 /* Info.plist */,
+				B140F70D2BDD568400536710 /* Stack.swift */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B140F70E2BDD568400536710 /* Stack.swift in Sources */,
 				B140F6FE2BDC051600536710 /* ViewController.swift in Sources */,
 				B140F6FA2BDC051600536710 /* AppDelegate.swift in Sources */,
 				B140F6FC2BDC051600536710 /* SceneDelegate.swift in Sources */,
